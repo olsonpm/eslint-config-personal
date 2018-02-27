@@ -21,6 +21,7 @@ module.exports = {
         "ignoreRestSiblings": false,
         "argsIgnorePattern": "^_"
       }
-    ]
+    ],
+    "prefer-const": "error"
   }
 };
