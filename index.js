@@ -1,27 +1,26 @@
 module.exports = {
-  "env": {
-    "es6": true,
-    "node": true,
-    "browser": true
+  env: {
+    es6: true,
+    node: true,
+    browser: true,
   },
-  "extends": [
-    "eslint:recommended",
-    "prettier",
-  ],
-  "parserOptions": {
-    "ecmaVersion": 8,
-    "sourceType": "module"
+  extends: ['eslint:recommended', 'prettier'],
+  parserOptions: {
+    ecmaVersion: 8,
+    sourceType: 'module',
   },
-  "rules": {
-    "no-unused-vars": [
-      "error",
+  rules: {
+    'no-unused-vars': [
+      'error',
       {
-        "vars": "all",
-        "args": "all",
-        "ignoreRestSiblings": false,
-        "argsIgnorePattern": "^_"
-      }
+        vars: 'all',
+        args: 'all',
+        ignoreRestSiblings: false,
+        argsIgnorePattern: '^_',
+      },
     ],
-    "prefer-const": "error"
-  }
-};
+    'prefer-const': 'error',
+    'no-use-before-define': ['error', 'nofunc'],
+    'no-confusing-arrow': 'error',
+  },
+}
