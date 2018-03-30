@@ -20,7 +20,7 @@ module.exports = {
       },
     ],
     'prefer-const': 'error',
-    'no-use-before-define': ['error', 'nofunc'],
+    'no-use-before-define': ['error', { functions: false, variables: false }],
     'no-confusing-arrow': 'error',
   },
 }
