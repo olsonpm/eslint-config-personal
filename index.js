@@ -17,6 +17,7 @@ module.exports = {
         args: 'all',
         ignoreRestSiblings: false,
         argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_unused',
       },
     ],
     'prefer-const': 'error',
