@@ -23,6 +23,7 @@ module.exports = {
     'prefer-const': 'error',
     'no-use-before-define': ['error', { functions: false, variables: false }],
     'no-confusing-arrow': 'error',
-    semi: ['error', 'never']
+    semi: ['error', 'never'],
+    'no-async-promise-executor': 'off',
   },
 }
