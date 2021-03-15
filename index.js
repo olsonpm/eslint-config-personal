@@ -10,6 +10,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'require-atomic-updates': 'off',
     'no-unused-vars': [
       'error',
       {
