@@ -10,7 +10,11 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'require-atomic-updates': 'off',
+    'no-async-promise-executor': 'off',
+    'no-confusing-arrow': 'error',
+    'no-constant-condition': {
+      checkLoops: false
+    },
     'no-unused-vars': [
       'error',
       {
@@ -21,10 +25,9 @@ module.exports = {
         varsIgnorePattern: '^_unused',
       },
     ],
-    'prefer-const': 'error',
     'no-use-before-define': ['error', { functions: false, variables: false }],
-    'no-confusing-arrow': 'error',
+    'prefer-const': 'error',
+    'require-atomic-updates': 'off',
     semi: ['error', 'never'],
-    'no-async-promise-executor': 'off',
   },
 }
