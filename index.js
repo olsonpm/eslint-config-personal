@@ -12,9 +12,7 @@ module.exports = {
   rules: {
     'no-async-promise-executor': 'off',
     'no-confusing-arrow': 'error',
-    'no-constant-condition': {
-      checkLoops: false
-    },
+    'no-constant-condition': ['error', { checkLoops: false }],
     'no-unused-vars': [
       'error',
       {
