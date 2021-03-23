@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-personal",
+  "name": "@olsonpm/eslint-config-personal",
   "version": "0.1.1",
   "description": "My personal eslint config preset",
   "main": "index.js",
   "keywords": [],
   "author": "Philip Olson",
-  "license": "WTFNMFPL-1.0",
+  "license": "WTFPL",
   "dependencies": {
     "eslint": "^4.18.1",
     "eslint-config-prettier": "^2.9.0"
@@ -17,5 +17,16 @@
     "singleQuote": true,
     "trailingComma": "es5",
     "semi": false
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/eslint-config-personal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olsonpm/eslint-config-personal/issues"
+  },
+  "homepage": "https://github.com/olsonpm/eslint-config-personal#readme"
 }
