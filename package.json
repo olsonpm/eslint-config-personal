@@ -1,16 +1,14 @@
 {
   "name": "@olsonpm/eslint-config-personal",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "My personal eslint config preset",
   "main": "index.js",
   "keywords": [],
   "author": "Philip Olson",
   "license": "WTFPL",
-  "dependencies": {
-    "eslint": "^4.18.1",
-    "eslint-config-prettier": "^2.9.0"
-  },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "prettier": "^1.11.1"
   },
   "prettier": {
