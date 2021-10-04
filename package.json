@@ -1,14 +1,12 @@
 {
   "name": "@olsonpm/eslint-config-personal",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "My personal eslint config preset",
   "main": "index.js",
   "keywords": [],
   "author": "Philip Olson",
   "license": "WTFPL",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.4.1"
   },
   "prettier": {
@@ -26,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/olsonpm/eslint-config-personal/issues"
   },
-  "homepage": "https://github.com/olsonpm/eslint-config-personal#readme"
+  "homepage": "https://github.com/olsonpm/eslint-config-personal#readme",
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0"
+  }
 }
