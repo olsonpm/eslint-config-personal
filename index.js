@@ -3,9 +3,9 @@ module.exports = {
     browser: true,
     es2021: true,
     mocha: true,
-    node: true
+    node: true,
   },
-  extends: ['eslint:recommended', 'prettier'],
+  extends: ['plugin:import/recommended', 'eslint:recommended'],
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: 'module',
