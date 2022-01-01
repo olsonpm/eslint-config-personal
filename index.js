@@ -10,6 +10,9 @@ module.exports = {
     ecmaVersion: 2021,
     sourceType: 'module',
   },
+  settings: {
+    'import/resolver': ['node', 'pjson-imports'],
+  },
   rules: {
     'no-async-promise-executor': 'off',
     'no-confusing-arrow': 'error',

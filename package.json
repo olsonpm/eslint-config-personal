@@ -5,8 +5,9 @@
   "main": "index.js",
   "keywords": [],
   "author": "Philip Olson",
-  "license": "WTFPL",
+  "license": "WTFNMFPL-1.0",
   "dependencies": {
+    "eslint-import-resolver-pjson-imports": "github:olsonpm/eslint-import-resolver-pjson-imports#51db6891588f3ae45c1e9672abd33ba39fa89c32",
     "eslint-plugin-import": "^2.25.2"
   },
   "devDependencies": {
