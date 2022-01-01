@@ -31,5 +31,6 @@ module.exports = {
     'prefer-const': 'error',
     'require-atomic-updates': 'off',
     semi: ['error', 'never'],
+    'import/no-extraneous-dependencies': ['error', { workspaces: true }],
   },
 }
