@@ -5,13 +5,16 @@ module.exports = {
     mocha: true,
     node: true,
   },
-  extends: ['plugin:import/recommended', 'eslint:recommended'],
+  extends: [
+    'plugin:@olsonpm/eslint-plugin-import/recommended',
+    'eslint:recommended',
+  ],
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: 'module',
   },
   settings: {
-    'import/resolver': ['node', 'pjson-imports'],
+    '@olsonpm/eslint-plugin-import/resolver': ['node', 'pjson-imports'],
   },
   rules: {
     'no-async-promise-executor': 'off',
@@ -31,6 +34,9 @@ module.exports = {
     'prefer-const': 'error',
     'require-atomic-updates': 'off',
     semi: ['error', 'never'],
-    'import/no-extraneous-dependencies': ['error', { workspaces: true }],
+    '@olsonpm/eslint-plugin-import/no-extraneous-dependencies': [
+      'error',
+      { workspaces: true },
+    ],
   },
 }
