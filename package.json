@@ -1,14 +1,14 @@
 {
   "name": "@olsonpm/eslint-config-personal",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "My personal eslint config preset",
   "main": "index.js",
   "keywords": [],
   "author": "Philip Olson",
-  "license": "WTFNMFPL-1.0",
+  "license": "SEE LICENSE IN license.txt",
   "dependencies": {
-    "@olsonpm/eslint-plugin-import": "2.25.3-2",
-    "eslint-import-resolver-pjson-imports": "github:olsonpm/eslint-import-resolver-pjson-imports#51db6891588f3ae45c1e9672abd33ba39fa89c32"
+    "eslint-import-resolver-pjson-imports": "github:olsonpm/eslint-import-resolver-pjson-imports#51db6891588f3ae45c1e9672abd33ba39fa89c32",
+    "eslint-plugin-import": "^2.25.3"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
