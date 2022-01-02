@@ -40,7 +40,6 @@ module.exports = {
     'import/no-deprecated': 'error',
     'import/no-duplicates': 'error',
     'import/no-extraneous-dependencies': 'error',
-    'import/no-internal-modules': 'error',
     'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
     'import/no-relative-packages': 'error',
