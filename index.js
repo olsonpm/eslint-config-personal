@@ -31,6 +31,22 @@ module.exports = {
     'prefer-const': 'error',
     'require-atomic-updates': 'off',
     semi: ['error', 'never'],
-    'import/no-extraneous-dependencies': ['error', { workspaces: true }],
+
+    // import plugin
+    'import/group-exports': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-anonymous-default-export': 'error',
+    'import/no-cycle': 'error',
+    'import/no-deprecated': 'error',
+    'import/no-duplicates': 'error',
+    'import/no-extraneous-dependencies': 'error',
+    'import/no-internal-modules': 'error',
+    'import/no-named-as-default': 'error',
+    'import/no-named-as-default-member': 'error',
+    'import/no-relative-packages': 'error',
+    'import/no-unused-modules': 'error',
+    'import/no-useless-path-segments': 'error',
+    'import/order': 'error',
+    'import/unambiguous': 'error',
   },
 }
