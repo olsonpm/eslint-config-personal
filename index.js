@@ -17,6 +17,7 @@ module.exports = {
     'no-async-promise-executor': 'off',
     'no-confusing-arrow': 'error',
     'no-constant-condition': ['error', { checkLoops: false }],
+    'no-extra-semi': 'off',
     'no-unused-vars': [
       'error',
       {
@@ -30,7 +31,7 @@ module.exports = {
     'no-use-before-define': ['error', { functions: false, variables: false }],
     'prefer-const': 'error',
     'require-atomic-updates': 'off',
-    semi: ['error', 'never'],
+    semi: 'off',
 
     // import plugin
     'import/group-exports': 'error',
