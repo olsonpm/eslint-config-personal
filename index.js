@@ -29,7 +29,7 @@ module.exports = {
       },
     ],
     'no-use-before-define': ['error', { functions: false, variables: false }],
-    'prefer-const': 'error',
+    'prefer-const': ['error', { destructuring: 'all' }],
     'require-atomic-updates': 'off',
     semi: 'off',
 
