@@ -25,7 +25,7 @@ module.exports = {
         args: 'all',
         ignoreRestSiblings: false,
         argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_unused',
+        varsIgnorePattern: '^_',
       },
     ],
     'no-use-before-define': ['error', { functions: false, variables: false }],
