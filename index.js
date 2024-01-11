@@ -36,7 +36,6 @@ module.exports = {
     // import plugin
     'import/group-exports': 'error',
     'import/newline-after-import': 'error',
-    'import/no-anonymous-default-export': 'error',
     'import/no-cycle': 'error',
     'import/no-deprecated': 'error',
     'import/no-duplicates': 'error',
