@@ -11,7 +11,11 @@ module.exports = {
     sourceType: 'module',
   },
   settings: {
-    'import/resolver': ['node', 'pjson-imports'],
+    'import/extensions': ['.mjs', '.cjs', '.js'],
+    'import/resolver': {
+      node: true,
+      'pjson-imports': true,
+    },
   },
   rules: {
     'no-async-promise-executor': 'off',
@@ -43,7 +47,13 @@ module.exports = {
     'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
     'import/no-relative-packages': 'error',
-    'import/no-unused-modules': 'error',
+    'import/no-unresolved': ['error', { commonjs: true }],
+    'import/no-unused-modules': [
+      'error',
+      {
+        unusedExports: true,
+      },
+    ],
     'import/no-useless-path-segments': 'error',
     'import/order': 'error',
   },
