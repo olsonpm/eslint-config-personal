@@ -7,7 +7,7 @@
   "author": "Philip Olson",
   "license": "SEE LICENSE IN license.txt",
   "dependencies": {
-    "eslint-import-resolver-pjson-imports": "github:olsonpm/eslint-import-resolver-pjson-imports#51db6891588f3ae45c1e9672abd33ba39fa89c32",
+    "eslint-import-resolver-pjson-imports": "github:olsonpm/eslint-import-resolver-pjson-imports#7448e23e4a77581270f8d9a19be54701727eff78",
     "eslint-plugin-import": "^2.29.1"
   },
   "devDependencies": {
