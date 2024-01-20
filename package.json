@@ -1,6 +1,6 @@
 {
   "name": "@olsonpm/eslint-config-personal",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "My personal eslint config preset",
   "main": "index.js",
   "keywords": [],
