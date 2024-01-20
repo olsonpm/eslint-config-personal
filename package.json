@@ -8,7 +8,7 @@
   "license": "SEE LICENSE IN license.txt",
   "dependencies": {
     "eslint-import-resolver-pjson-imports": "github:olsonpm/eslint-import-resolver-pjson-imports#3b6562faff57fb743508e6141be50bdbee7f8de9",
-    "eslint-plugin-import": "^2.25.3"
+    "eslint-plugin-import": "^2.29.1"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
