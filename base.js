@@ -10,6 +10,7 @@ module.exports = {
     ecmaVersion: 2022,
     sourceType: 'module',
   },
+  plugins: ['eslint-plugin-import'],
   rules: {
     'no-async-promise-executor': 'off',
     'no-confusing-arrow': 'error',
