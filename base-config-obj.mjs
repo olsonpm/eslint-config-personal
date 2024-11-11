@@ -1,21 +1,24 @@
-module.exports = {
-  env: {
-    browser: true,
-    es2022: true,
-    mocha: true,
-    node: true,
-  },
-  extends: ['eslint:recommended'],
-  parserOptions: {
+import globals from 'globals'
+
+export default {
+  languageOptions: {
     ecmaVersion: 2022,
     sourceType: 'module',
+    globals: {
+      ...globals.browser,
+      ...globals.node,
+      ...globals.mocha,
+      ...globals.es2022,
+    },
   },
-  plugins: ['eslint-plugin-import'],
   rules: {
     'no-async-promise-executor': 'off',
     'no-confusing-arrow': 'error',
     'no-constant-condition': ['error', { checkLoops: false }],
     'no-extra-semi': 'off',
+    'prefer-const': ['error', { destructuring: 'all' }],
+    'require-atomic-updates': 'off',
+    semi: 'off',
     'no-unused-vars': [
       'error',
       {
@@ -26,9 +29,5 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
-    'no-use-before-define': ['error', { functions: false, variables: false }],
-    'prefer-const': ['error', { destructuring: 'all' }],
-    'require-atomic-updates': 'off',
-    semi: 'off',
   },
 }
