@@ -7,7 +7,7 @@ export default [
       'import/extensions': ['.mjs', '.cjs', '.js'],
       'import/resolver': {
         node: true,
-        '@cfp/eslint-import-resolver-pjson-imports': true,
+        'eslint-import-resolver-pjson-imports': true,
       },
     },
     rules: {
@@ -21,14 +21,17 @@ export default [
       'import/no-named-as-default': 'off',
       'import/no-relative-packages': 'error',
       'import/no-unresolved': ['error', { commonjs: true }],
-      'import/no-unused-modules': [
-        'error',
-        {
-          unusedExports: true,
-        },
-      ],
       'import/no-useless-path-segments': 'error',
-      'import/order': 'error',
+
+      // rules with bugs
+      'import/namespace': 'off',
+      'import/no-unused-modules': 'off',
+      // 'import/no-unused-modules': [
+      //   'error',
+      //   {
+      //     unusedExports: true,
+      //   },
+      // ],
     },
   },
 ]
