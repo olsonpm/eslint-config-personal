@@ -1,23 +1,22 @@
 {
   "name": "@olsonpm/eslint-config-personal",
-  "version": "0.1.21",
-  "description": "My personal eslint config preset",
+  "version": "0.2.0",
+  "description": "My personal eslint config",
   "main": "base.mjs",
+  "type": "module",
   "exports": {
     ".": "./base.mjs",
     "./base": "./base.mjs",
-    "./base-with-ts": "./base-with-ts.mjs",
-    "./cli": "./cli.mjs",
-    "./cli-with-ts": "./cli-with-ts.mjs"
+    "./base-with-ts": "./base-with-ts.mjs"
   },
   "keywords": [],
   "author": "Philip Olson",
   "license": "SEE LICENSE IN license.txt",
   "dependencies": {
-    "@eslint/js": "^9.14.0",
-    "eslint-import-resolver-pjson-imports": "github:olsonpm/eslint-import-resolver-pjson-imports#3b6562faff57fb743508e6141be50bdbee7f8de9",
-    "eslint-plugin-import": "^2.31.0",
-    "globals": "^15.12.0"
+    "@eslint/js": "^9.36.0",
+    "eslint-plugin-compat": "^6.0.2",
+    "eslint-plugin-import-x": "^4.16.1",
+    "globals": "^16.4.0"
   },
   "prettier": {
     "singleQuote": true,
@@ -35,15 +34,17 @@
     "url": "https://github.com/olsonpm/eslint-config-personal/issues"
   },
   "homepage": "https://github.com/olsonpm/eslint-config-personal#readme",
-  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
+  "packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a",
   "devDependencies": {
-    "eslint": "^9.14.0",
-    "prettier": "^3.3.3"
+    "eslint": "^9.36.0",
+    "prettier": "^3.6.2"
   },
   "optionalDependencies": {
-    "typescript-eslint": "^8.13.0"
+    "@typescript-eslint/parser": "^8.44.1",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "typescript-eslint": "^8.44.1"
   },
   "peerDependencies": {
-    "eslint": "^9.14.0"
+    "eslint": "^9.36.0"
   }
 }
